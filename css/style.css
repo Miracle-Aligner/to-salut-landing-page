@@ -11227,7 +11227,8 @@ h1 div {
 }
 
 .swipe-button {
-  padding-top: 1vh;
+  padding-top: 2vh;
+  padding-bottom: 7vh;
 }
 
 .mobile-upper-logo {
