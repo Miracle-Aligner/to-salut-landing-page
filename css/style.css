@@ -10988,7 +10988,7 @@ h5,
 }
 
 .ftco-section {
-  padding: 3em 0 7em 0;
+  padding: 4em 0 7em 0;
 }
 
 .ftco-no-pt {
@@ -11224,6 +11224,8 @@ h1 div {
 
 .footer .logo-instagram {
   height: 4vh;
+  position: absolute;
+  bottom: 0;
 }
 
 .swipe-button {
