@@ -11216,6 +11216,9 @@ h1 div {
 .footer .row {
   background: #BAB4A8;
   height: 7vh;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
 }
 
 .footer img {
@@ -11224,16 +11227,31 @@ h1 div {
 
 .footer .logo-instagram {
   height: 4vh;
-  position: absolute;
-  bottom: 0;
 }
 
 .swipe-button {
   padding-top: 2vh;
-  padding-bottom: 7vh;
+  padding-bottom: 5vh;
 }
 
 .mobile-upper-logo {
   width: 100%;
   padding-bottom: 3em;
+}
+
+@media (max-width: 576px) {
+  .owl-dots,
+  .owl-nav {
+    display:  none!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .owl-dots {
+    display:  block!important;
+  }
+
+  .owl-nav {
+    display:  inline-block!important;
+  }
 }
