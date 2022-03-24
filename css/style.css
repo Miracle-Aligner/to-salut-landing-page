@@ -11262,13 +11262,15 @@ body {
   height: 100vh;
 }
 
-.subscribe-button {
-  position: absolute;
-  bottom: 0;
+.subscribe-button,
+.subscribe-button button {
   margin-bottom: 0!important;
 }
 
 .desc {
   position:relative;
   height: 100%;
+  display: flex;
+  justify-content:space-between;
+  flex-direction:column;
 }
