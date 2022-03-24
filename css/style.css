@@ -11263,6 +11263,11 @@ body {
 }
 
 .subscribe-button {
-  bottom: 0;
   position: absolute;
+  bottom: 0;
+}
+
+.desc {
+  position:relative;
+  height: 100%;
 }
