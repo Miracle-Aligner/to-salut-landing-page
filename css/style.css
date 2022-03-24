@@ -10989,6 +10989,7 @@ h5,
 
 .ftco-section {
   padding: 4em 0 7em 0;
+  flex: 1 0 auto;
 }
 
 .ftco-no-pt {
@@ -11216,9 +11217,8 @@ h1 div {
 .footer .row {
   background: #BAB4A8;
   height: 7vh;
-  position: fixed;
   width: 100vw;
-  bottom: 0;
+  flex-shrink: 0;
 }
 
 .footer img {
@@ -11254,4 +11254,15 @@ h1 div {
   .owl-nav {
     display:  inline-block!important;
   }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.subscribe-button {
+  bottom: 0;
+  position: absolute;
 }
