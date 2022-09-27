@@ -1,5 +1,5 @@
 # to_salut — Landing page
-[to_salute](https://www.instagram.com/to_salut/) is a creative association of young people that aims to popularize modern Ukrainian culture. The main type of activity is the creation of the printed newspaper "Salut".
+[to_salut](https://www.instagram.com/to_salut/) is a creative association of young people that aims to popularize modern Ukrainian culture. The main type of activity is the creation of the printed newspaper "Salut".
 
 After February 24, the authors made an online release to raise funds for a charity fund.
 
